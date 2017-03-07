@@ -1,0 +1,16 @@
+p.dline {
+    line-height: 1;
+}
+
+table.cont, tr {
+    line-height: 16px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.no-gutter > [class*='col-'] {
+    margin-right: 10px;
+    margin-left: 10px;
+}

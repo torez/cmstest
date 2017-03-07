@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+    <div id="mainBody">
+        <div class="container background-white">
+            <div class="row">
+                <div class="row bottom-border">
+                    <div id="gallery" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 margin-top-40">
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 block-center margin-left-20">
+                                {% placeholder "image_title" %}
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div id="differentview"
+                                     class="moreOptopm carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            {% placeholder "image_dop_active" %}
+                                        </div>
+                                        <div class="item">
+                                            {% placeholder "image_dop" %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="spec" class="col-xs-12 col-sm-12 col-md-6 col-lg-6  margin-top-20">
+                        <div class="container">
+                            <h1><b>Модель &quot;{% placeholder "title" %}&quot;</b></h1>
+                            <small>{% placeholder "title_dop" %}</small>
+                            <table class="table table-hover table-condensed margin-top-20">
+                                <tbody>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Доступные размеры</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_sizes" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Наружная накладка</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_otd_naruzh" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Внутренняя накладка</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_otd_vnutr" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Толщина дверного полотна мм.</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_polotno_dver" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Утепление коробки</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_uteplenie_korobki" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Количество контуров
+                                        уплотнения
+                                    </td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_kol_konturov_uplotn" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Основной замок</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_zamok_osn" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Дополнительный
+                                        замок
+                                    </td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_zamok_dop" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Ручка</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_ruchka" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Ночная задвижка
+                                    </td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_zadv" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Глазок</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_glaz" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Стеклопакет</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_steklopacket" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Петли шт.</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_petli" %}</td>
+                                </tr>
+                                <tr class="techSpecRow">
+                                    <td class="techSpecTD1">Антисрезы</td>
+                                    <td class="techSpecTD2">{% placeholder "SPEC_antisrezi" %}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div id="short_desc">
+                                {% placeholder "desc_short" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="description" class="row bottom-border">
+                    <div class="container margin-top-40 padding-bottom-20">
+                        {% placeholder "descripton" %}
+                    </div>
+                </div>
+{#                <div id="construction" class="row bottom-border">#}
+{#                    <div class="container margin-top-40 padding-bottom-20">#}
+{#                        {% placeholder "construction" %}#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div id="recomendation" class="row bottom-border">#}
+{#                    <div class="container margin-top-40 padding-bottom-20">#}
+{#                        {% placeholder "recomend" %}#}
+{#                    </div>#}
+{#                </div>#}
+            </div>
+        </div>
+    </div>
+{% endblock content %}
