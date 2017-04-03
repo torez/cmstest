@@ -3,7 +3,12 @@ p.dline {
 }
 
 table.cont, tr {
-    line-height: 16px;
+    line-height: 10px;
+}
+
+table.cont-bottom, tr {
+    line-height: 18px;
+    vertical-align: top;
 }
 
 p {
@@ -11,6 +16,56 @@ p {
 }
 
 .no-gutter > [class*='col-'] {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-border-thin {
+  box-shadow: 0 -1px 0 #33747a inset, 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.slider_boiler img{
+    /*padding: 10%;*/
+    /*width: 80%;*/
+    vertical-align: middle;
+}
+
+.slider_boiler a{
+    vertical-align: middle;
+    line-height:normal;
+    display: inline-block;
+}
+
+/*.slider_boiler div{*/
+    /*height: 587px;*/
+    /*line-height: 587px;*/
+/*}*/
+
+
+/*.sign {*/
+    /*float: left; !* Выравнивание по правому краю *!*/
+    /*!*border: 1px solid #333; !* Параметры рамки *!*!*/
+    /*!*padding: 7px; !* Поля внутри блока *!*!*/
+    /*!*margin: 10px 0 5px 5px; !* Отступы вокруг *!*!*/
+    /*!*background: #f0f0f0; !* Цвет фона *!*!*/
+   /*}*/
+.sign figcaption {
+      color: #ffffff;
+  top: 0;
+  left: 0;
+  padding: 5px 25px;
+    font-size: 85%;
+  /*text-shadow: darkgrey 1px 1px 1px, darkgrey -1px -1px 1px,*/
+                 /*darkgrey -1px 1px 1px, darkgrey 1px -1px 1px;*/
+  /*background-color: rgba(0, 0, 0, 0.31);*/
+  text-align: left;
+  text-transform: none;
+  position: absolute;
+  z-index: 1;
+   }
+.highlighted {
+    color: #d2d2d2;
+    background: #43a1a7;
 }

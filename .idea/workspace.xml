@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caf287c4-9ee3-4906-b22e-f7cdbbe14e4b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/whoosh_index/MAIN_WRITELOCK" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/deleted-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_alert.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/img/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/taras.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick-theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick-theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/static/slick/slick.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/templates/detail_boiler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/templates/detail_boiler_v2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmsapp/whoosh_index/_MAIN_1.toc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/related-widget-wrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/css/jquery.contextMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/css/jquery.handsontable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/bootstrap-typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/jquery.contextMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/jquery.handsontable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/jquery.ui.position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/table/js/json2.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/a40e0259-eb92-4273-86d5-eec47182f552.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/mod tamplate/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/mod tamplate/feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/mod tamplate/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/mod tamplate/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/original CMS tamplates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/original CMS tamplates/feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/original CMS tamplates/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/original CMS tamplates/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/img/html_layout.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/img/showcase-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/img/template_showcase.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/Documentation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/nexus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/thumbs/thumb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/thumbs/thumb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/thumbs/thumb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/blog/thumbs/thumb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/fillers/aboutme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/fillers/filler1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/fillers/filler2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/fillers/filler3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/fillers/filler4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/frontpage/image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/hr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/ipads.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/menu_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/portfolio/image9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/87.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/profiles/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slideshow/slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slideshow/slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slideshow/slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slideshow/slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slimbox/closelabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slimbox/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slimbox/nextlabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/slimbox/prevlabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/aim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/blogger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/cargo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/deviantart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/digg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/dopplr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/ember.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/evernote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/forrst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/gowalla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/grooveshark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/html5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/icloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/lastfm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/metacafe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/mixx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/netvibes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/newsvine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/orkut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/plurk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/posterous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/wordpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/yelp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/zerply.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/social_icons/zootool.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/theteam/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/theteam/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/theteam/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/image09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/thumbsgallery/thumbs/image09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/attach.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/clip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/left_quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/note.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/right_quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/sampleimage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/img/typo/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/jquery.isotope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/jquery.slicknav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/jquery.sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/jquery.visible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/modernizr.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/js/slimbox2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/accordions.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/blockquotes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/blog.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/carousels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/hornav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/nexus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/pages.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/portfolio.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/responsive-nav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/sidebar-menu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/social-icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/tabs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/template.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/testimonials.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/thumbs-gallery.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/typo.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/utility-classes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/assets/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/blank-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/blog-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/blog-single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-accordions-tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-animate-on-scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-carousels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-icons-font-awesome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-icons-glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-icons-social.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-testimonials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-typo-basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/features-typo-blockquotes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-about-me.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-about-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-full-width.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-left-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-right-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-services.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/pages-sign-up.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/portfolio-2-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/portfolio-3-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/portfolio-4-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/HTML/portfolio-6-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adv/source tamplate/PSD/logo.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/static/img/logo.png" afterPath="$PROJECT_DIR$/cmsapp/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.db" afterPath="$PROJECT_DIR$/project.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cms.iml" afterPath="$PROJECT_DIR$/.idea/cms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/dcc5118c-0814-410c-b917-34a153885e37.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/dcc5118c-0814-410c-b917-34a153885e37.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/settings.py" afterPath="$PROJECT_DIR$/cmsapp/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/static/css/animate_zoom.css" afterPath="$PROJECT_DIR$/cmsapp/static/css/animate_zoom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/static/css/custom.css" afterPath="$PROJECT_DIR$/cmsapp/static/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/animate_zoom_css.html" afterPath="$PROJECT_DIR$/cmsapp/templates/animate_zoom_css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/base.html" afterPath="$PROJECT_DIR$/cmsapp/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/detail.html" afterPath="$PROJECT_DIR$/cmsapp/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/feature.html" afterPath="$PROJECT_DIR$/cmsapp/templates/feature.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/gallery.html" afterPath="$PROJECT_DIR$/cmsapp/templates/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/templates/menu.html" afterPath="$PROJECT_DIR$/cmsapp/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmsapp/urls.py" afterPath="$PROJECT_DIR$/cmsapp/urls.py" />
+    </list>
+    <ignored path="cmstest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="../.idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/steelartcms$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1490279231006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Django default" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Django default" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="schema #1" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cmstest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>U</find>
+      <find>UPD</find>
+      <find>i</find>
+      <find>imrot</find>
+      <find>imro</find>
+      <find>imr</find>
+      <find>im</find>
+      <find>impor</find>
+      <find>import</find>
+      <find>import p</find>
+      <find>import pd</find>
+      <find>import pdb</find>
+      <find>picture.html</find>
+      <find>frm frm-search</find>
+      <find>t</find>
+      <find>ty</find>
+      <find>type=&quot;</find>
+      <find>type=&quot;s</find>
+      <find>type=&quot;se</find>
+      <find>type=&quot;sear</find>
+      <find>type=&quot;searc</find>
+      <find>type=&quot;search</find>
+      <find>type=&quot;search&quot;</find>
+      <find>search_fulltext</find>
+      <find>base_qs.published(site=site_obj.id).filter(</find>
+      <find>base_qs.</find>
+      <find>base_qs</find>
+      <find>Page</find>
+      <find>per</find>
+      <find>filter</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>col10</replace>
+      <replace>100%</replace>
+      <replace>scale(2,2)</replace>
+      <replace>float: left;</replace>
+      <replace>40%</replace>
+      <replace>float: none;</replace>
+      <replace>50%</replace>
+      <replace>10%</replace>
+      <replace>darkgrey</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../../dcmstest/cmstest</dir>
+      <dir>$PROJECT_DIR$/../../dcmstest</dir>
+      <dir>$PROJECT_DIR$/../dcmsve</dir>
+      <dir>$PROJECT_DIR$/..</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/../</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/detail_spec_bottom.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/detail_spec_right.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/urls.py" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/language_chooser.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/static/js/lightbox.js" />
+        <option value="$PROJECT_DIR$/../../dcmstest/dcmsve/lib/python2.7/site-packages/djangocms_picture/templates/djangocms_picture/withlightbox/picture.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/manage.py" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/settings.py" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/static/css/bootstrap_col_10.css" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/detail.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/base.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/static/css/animate_zoom.css" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/animate_zoom_css.html" />
+        <option value="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/feature.html" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/feature.html" />
+        <option value="$PROJECT_DIR$/cmsapp/static/css/animate_zoom.css" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/slider_slick_css.html" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/animate_zoom_css.html" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/detail_boiler.html" />
+        <option value="$PROJECT_DIR$/cmsapp/static/slick/slick-theme.css" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_picture/templates/djangocms_picture/withlightbox/picture.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_picture/templates/djangocms_picture/withlightbox_group2/picture.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dcc5118c-0814-410c-b917-34a153885e37/console.sql" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/detail_boiler_v2.html" />
+        <option value="dbtable:/17cd0cb7/dcc5118c-0814-410c-b917-34a153885e37/djangocms_picture_picture" />
+        <option value="dbtable:/17cd0cb7/dcc5118c-0814-410c-b917-34a153885e37/cms_title" />
+        <option value="dbtable:/17cd0cb7/dcc5118c-0814-410c-b917-34a153885e37/cms_page" />
+        <option value="$USER_HOME$/PycharmProjects/steelartdcms/dcmsve/lib/python2.7/site-packages/cmsplugin_filer_folder/templates/cmsplugin_filer_folder/plugins/folder/default.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cmsplugin_filer_folder/templates/cmsplugin_filer_folder/plugins/folder/default.html" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap_col_10.css" />
+        <option value="$PROJECT_DIR$/cmsapp/static/css/bootstrap_col_10.css" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/detail.html" />
+        <option value="$PROJECT_DIR$/cmsapp/urls.py" />
+        <option value="$PROJECT_DIR$/cmsapp/search_indexes.py" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/utils.py" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/management/commands/update_index.py" />
+        <option value="$PROJECT_DIR$/cmsapp/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/gallery.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/base.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_search/templates/djangocms_search/search_results_plugin.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/base.py" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/menu.html" />
+        <option value="$PROJECT_DIR$/cmsapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/search_results.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/includes/search_items.html" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_search/cms_plugins.py" />
+        <option value="$PROJECT_DIR$/cmsapp/settings.py" />
+        <option value="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_redirect/middleware.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ColorIdeProjectViewPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ColorIdeProjectViewPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steelartcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dcmsve" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="withlightbox&#9;ACTION&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_picture/templates/djangocms_picture/picture.html" />
+      <recent name="$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_picture/templates/djangocms_picture" />
+      <recent name="$PROJECT_DIR$/cmsapp/static" />
+      <recent name="$PROJECT_DIR$/cmsapp/templates" />
+      <recent name="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/static/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/djangocms_picture" />
+      <recent name="$PROJECT_DIR$/../../dcmstest/cmstest/cmstst/templates/djangocms_picture/default" />
+      <recent name="$PROJECT_DIR$/../../dcmstest/cmstest/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.cms">
+    <configuration default="false" name="picture.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cmstest/site-packages/djangocms_picture/templates/djangocms_picture/withlightbox/picture.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="default.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/steelartcms/site-packages/cmsplugin_filer_folder/templates/cmsplugin_filer_folder/plugins/folder/default.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="cmstest" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cms" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cmsapp.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../dcmsve/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cms" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dbg_command" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cmsapp.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../dcmsve/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cms" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="true" />
+      <option name="customRunCommand" value="update_index" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Django server.cms" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.dbg_command" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.picture.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.default.html" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.picture.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.default.html" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmstest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caf287c4-9ee3-4906-b22e-f7cdbbe14e4b" name="Default" comment="" />
+      <created>1485603827728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485603827728</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1485932192307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485932192307</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial">
+      <created>1485933584789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485933584789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix font in CSS and LESS">
+      <created>1485941171482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485941171482</updated>
+    </task>
+    <task id="LOCAL-00004" summary="very many changes">
+      <created>1488873621185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488873621185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2017.03.23 at 16h 26m 04s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2017.03.23 at 16h 27m 13s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27009645" sideWeight="0.5060606" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31993568" sideWeight="0.46515152" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27009645" sideWeight="0.4939394" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65112543" sideWeight="0.3689394" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45498392" sideWeight="0.47727272" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@cms" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27009645" sideWeight="0.5060606" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13939394" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41318327" sideWeight="0.48257574" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24279211" sideWeight="0.50643086" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@cmstest" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18488745" sideWeight="0.4939394" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971061" sideWeight="0.18863636" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27331188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="fix font in CSS and LESS" />
+    <MESSAGE value="very many changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="very many changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/management/commands/update_index.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/helpers.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/helpers.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/base.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/base.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/base.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/indexes.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/management/commands/update_index.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/management/commands/update_index.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/urls.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms_redirects/models.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms_redirects/middleware.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="96" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="base_plugin.plugin_type" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/utils/loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="317" column="0" lean-forward="false" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/utils/dateparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmsapp/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/search_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/includes/search_items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/templates/aldryn_search/includes/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-709">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmsapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="104" column="45" lean-forward="false" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-933">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/management/commands/update_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/plugin_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_search/templates/djangocms_search/search_items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_search/templates/djangocms_search/search_results_plugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/template/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/utils/django_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/appresolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/plugin_rendering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="343" column="31" lean-forward="false" selection-start-line="343" selection-start-column="31" selection-end-line="343" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#86#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_search/cms_plugins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/aldryn_search/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_link/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_link/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_link/cms_plugins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_link/templates/djangocms_link/default/link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/admin/settingsadmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms/admin/pageadmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms_redirects/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms_redirects/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/apps/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/cms_redirects/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3072">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmsapp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_redirect/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/haystack/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_redirect/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/djangocms_redirect/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dcmsve/lib/python2.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d300e48b/dcc5118c-0814-410c-b917-34a153885e37/filer_file">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d300e48b/dcc5118c-0814-410c-b917-34a153885e37/filer_folder">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
+  </component>
+</project>

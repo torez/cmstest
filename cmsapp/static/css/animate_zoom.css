@@ -1,28 +1,28 @@
-div.smoothzoom{
+div.zoomdoor{
   position:relative;
   background:#fff ;
   box-shadow: 0 0 0 1px #fff;
   transform: scale(1,1);
   -webkit-transform: scale(1,1);
   -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 500ms;
+  -webkit-transition-duration: 300ms;
   -moz-transform: scale(1,1);
   -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 500ms;
+  -moz-transition-duration: 300ms;
   -o-transform: scale(1,1);
   -o-transition-timing-function: ease-out;
-  -o-transition-duration: 500ms;
+  -o-transition-duration: 300ms;
   -ms-transform: scale(1,1);
   -ms-transition-timing-function: ease-out;
-  -ms-transition-duration: 500ms;
+  -ms-transition-duration: 300ms;
   z-index: 1;
 }
-div.smoothzoom:hover{
+div.zoomdoor:hover{
   box-shadow: 0 24px 12px -12px #333,0 0 6px 0 #ccc;
   transform: scale(2,2);
   -webkit-transform: scale(2,2);
   -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 500ms;
+  -webkit-transition-duration:  500ms;
   -moz-transform: scale(2,2);
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 500ms;
@@ -36,9 +36,47 @@ div.smoothzoom:hover{
   z-index: 100;
 }
 
-/*div:hover {*/
-  /*z-index: auto;*/
-/*}*/
+div.zoomboiler{
+  position:relative;
+  background:#fff ;
+  box-shadow: 0 0 0 1px #fff;
+  transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 300ms;
+  -moz-transform: scale(1,1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 300ms;
+  -o-transform: scale(1,1);
+  -o-transition-timing-function: ease-out;
+  -o-transition-duration: 300ms;
+  -ms-transform: scale(1,1);
+  -ms-transition-timing-function: ease-out;
+  -ms-transition-duration: 300ms;
+  z-index: 1;
+}
+div.zoomboiler:hover{
+  box-shadow: 0 24px 12px -12px #333,0 0 6px 0 #ccc;
+  transform: scale(2,2);
+  -webkit-transform: scale(1.5,1.5);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration:  500ms;
+  -moz-transform: scale(1.5,1.5);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 500ms;
+  -o-transform: scale(1.5,1.5);
+  -o-transition-timing-function: ease-out;
+  -o-transition-duration: 500ms;
+  -ms-transform: scale(1.5,1.5);
+  -ms-transition-timing-function: ease-out;
+  -ms-transition-duration: 500ms;
+  CURSOR:pointer;
+  z-index: 100;
+}
+
+div:hover {
+  z-index: auto;
+}
 
 div.topbar {
   z-index: 200;

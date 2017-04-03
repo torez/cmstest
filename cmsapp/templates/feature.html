@@ -3,12 +3,11 @@
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
-{% addtoblock "css" %}
-    <link rel="stylesheet" href="{% static "css/animate_zoom.css" %}">
-{% endaddtoblock %}
+{% include 'animate_zoom_css.html' %}
 
 {% block content %}
     {% placeholder "feature" %}
     {% placeholder "icon" %}
     {% placeholder "content" %}
+    {% include 'animate_zoom_css.html' %}
 {% endblock content %}

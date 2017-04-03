@@ -1,0 +1,332 @@
+{% extends "base.html" %}
+{% load cms_tags staticfiles sekizai_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% include 'animate_zoom_css.html' %}
+
+{% block content %}
+{#    <textarea onclick=»this.focus();this.select()» style=»width: 100%;»> {% filter force_escape %} {% debug %} {% endfilter %}</textarea>#}
+    <div id="mainBody">
+        <div class="container background-white">
+            <div class="row">
+                <div class="row bottom-border-thin">
+                    <div id="gallery" class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margin-top-20">
+                        <div class="row padding-20" style="padding-top: 30px;padding-left: 50px;">
+{#                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 block-center margin-left-20">#}
+                                {% placeholder "image_title" %}
+{#                            </div>#}
+{#                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">#}
+{#                                <div id="differentview"#}
+{#                                     class="moreOptopm carousel slide">#}
+{#                                    <div class="carousel-inner">#}
+{#                                        <div class="item active">#}
+{#                                            {% placeholder "image_dop_active" %}#}
+{#                                        </div>#}
+{#                                        <div class="item">#}
+{#                                            {% placeholder "image_dop" %}#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </div>#}
+                        </div>
+                    </div>
+                    <div id="spec" class="col-xs-12 col-sm-12 col-md-7 col-lg-7  margin-top-20">
+                        <div class=" margin-20">
+                            <h1><b>Котел твердотопливный &quot;{% placeholder "title" %}&quot;</b></h1>
+                            <small>{% placeholder "title_dop" %}</small>
+                            <table class="table table-hover table-condensed margin-top-30">
+                                <tbody>
+                                <tr>
+                                    <td width="10">1.</td>
+                                    <td>Номинальная теплопроизводительность (мощность) котла</td>
+                                    <td align="right"><b>{% placeholder "SPEC_vats" %}</b></td>
+                                    <td width="20">кВт</td>
+                                </tr>
+                                <tr>
+                                    <td >2.</td>
+                                    <td>Коэффициент полезного действия (основное топливо)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_kpd" %}</b></td>
+                                    <td>%</td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>Длительность сгорания разовой загрузки топлива:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">Дрова (влажность до 20%), брикеты</td>
+                                    <td align="right"><b>{% placeholder "SPEC_fire_time_drova" %}</b></td>
+                                    <td>час.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">Уголь</td>
+                                    <td align="right"><b>{% placeholder "SPEC_fire_time_ugol" %}</b></td>
+                                    <td>час.</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>Размеры топки (Глуб х Шир)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_topka_size_glub_shir" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">Глубина</td>#}
+{#                                    <td><b>{% placeholder "SPEC_topka_size_glubina" %}</b></td>#}
+{#                                    <td>кВт</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">Ширина</td>#}
+{#                                    <td><b>{% placeholder "SPEC_topka_size_shirina" %}</b></td>#}
+{#                                    <td>кВт</td>#}
+{#                                </tr>#}
+                                <tr>
+                                    <td>5.</td>
+                                    <td>Объем топки</td>
+                                    <td align="right"><b>{% placeholder "SPEC_topka_objem" %}</b></td>
+                                    <td>дм<sup>3</sup></td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>Максимальный объем воды в системе отопления</td>
+                                    <td align="right"><b>{% placeholder "SPEC_objem_vodi_v_sisteme" %}</b></td>
+                                    <td>л</td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>Масса котла без воды</td>
+                                    <td align="right"><b>{% placeholder "SPEC_massa_kotla" %}</b></td>
+                                    <td>кг</td>
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>Рекомендованая минимальная температура возвратной</td>
+                                    <td align="right"><b>{% placeholder "SPEC_min_temp_vozvr" %}</b></td>
+                                    <td>&degС</td>
+                                </tr>
+                                <tr>
+                                    <td>9.</td>
+                                    <td>Габаритные размеры котла (Шир x Выс x Глуб)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_gab_razm_B_H_L" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">B</td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_B" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">H</td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_H" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">H<sub>1</sub></td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_H1" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">H<sub>2</sub></td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_H2" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">H<sub>3</sub></td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_H3" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">L</td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_L" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+{#                                <tr>#}
+{#                                    <td></td>#}
+{#                                    <td style="padding-left: 30px;">L<sub>1</sub></td>#}
+{#                                    <td><b>{% placeholder "SPEC_gab_razm_L1" %}</b></td>#}
+{#                                    <td>мм</td>#}
+{#                                </tr>#}
+                                <tr>
+                                    <td>10.</td>
+                                    <td>Размеры загрузочной дверцы (Выс х Шир)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_zagr_dveri_Vis_Shir" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td>11.</td>
+                                    <td>Присоединительные (внешние) размеры борова</td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_kaban" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td>12.</td>
+                                    <td>Рекомендуемые параметры дымохода</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">Площадь сечения не менее</td>
+                                    <td align="right"><b>{% placeholder "SPEC_dimohod_ploschad" %}</b></td>
+                                    <td>см<sup>3</sup></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">Внутренний диаметр не менее</td>
+                                    <td align="right"><b>{% placeholder "SPEC_dimohod_diametr" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">Высота (минимально допустимая)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_dimohod_visota" %}</b></td>
+                                    <td>м</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div id="short_desc">
+                                {% placeholder "desc_short" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+{#                <div class="bottom-border">#}
+                    <div class="row bottom-border">
+                    <div id="gallery" class="col-xs-12 col-sm-12 col-md-5 col-lg-5 ">
+                        <div class="row padding-60" style="padding-top: 30px;">
+{#                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 block-center margin-left-20">#}
+                                {% placeholder "image_shema_size" %}
+                        </div>
+                    </div>
+                    <div id="spec" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 ">
+                        <div class=" margin-20">
+                            <table class="table table-hover table-condensed margin-top-30">
+                                <tbody>
+                                <tr>
+                                    <td width="10">13.</td>
+                                    <td>Площадь поверхности теплообмена в котле</td>
+                                    <td align="right"><b>{% placeholder "SPEC_ploschad_teploobmena" %}</b></td>
+                                    <td width="20">м<sup>2</sup></td>
+                                </tr>
+                                <tr>
+                                    <td >14.</td>
+                                    <td>Водная емкость котла</td>
+                                    <td align="right"><b>{% placeholder "SPEC_vodnaja_emkost" %}</b></td>
+                                    <td>л</td>
+                                </tr>
+                                <tr>
+                                    <td>15.</td>
+                                    <td>Необходимая тяга топочных газов</td>
+                                    <td align="right"><b>{% placeholder "SPEC_tjaga_gazov" %}</b></td>
+                                    <td>Па</td>
+                                </tr>
+                                <tr>
+                                    <td>16.</td>
+                                    <td>Температура топочных газов на выходе из котла</td>
+                                    <td align="right"><b>{% placeholder "SPEC_temp_topochn_gazov" %}</b></td>
+                                    <td>&degС</td>
+                                </tr>
+                                <tr>
+                                    <td>17.</td>
+                                    <td>Максимальная температура воды</td>
+                                    <td align="right"><b>{% placeholder "SPEC_max_temp_vodi" %}</b></td>
+                                    <td>>&degС</td>
+                                </tr>
+                                <tr>
+                                    <td>18.</td>
+                                    <td>Номинальное (максимальное рабочее) давление воды</td>
+                                    <td align="right"><b>{% placeholder "SPEC_nom_davlenie_vodi" %}</b></td>
+                                    <td>МПа</td>
+                                </tr>
+                                <tr>
+                                    <td>19.</td>
+                                    <td>Испытуемое давление воды, не более</td>
+                                    <td align="right"><b>{% placeholder "SPEC_ispit_davlenie_vodi" %}</b></td>
+                                    <td>МПа</td>
+                                </tr>
+                                <tr>
+                                    <td>20.</td>
+                                    <td>Потребление электроэнергии (контролер + вентилятор)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_potr_electroen" %}</b></td>
+                                    <td>Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>21.</td>
+                                    <td>Габаритные размеры котла</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">B</td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_B" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">H</td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_H" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">H<sub>1</sub></td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_H1" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">H<sub>2</sub></td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_H2" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">H<sub>3</sub></td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_H3" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">L</td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_L" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="padding-left: 30px;">L<sub>1</sub></td>
+                                    <td align="right"><b>{% placeholder "SPEC_size_L1" %}</b></td>
+                                    <td>мм</td>
+                                </tr>
+                                <tr>
+                                    <td>22.</td>
+                                    <td>Диаметр патрубков прямой и обратной сетевой воды (Д<sub>y</sub>)</td>
+                                    <td align="right"><b>{% placeholder "SPEC_D_patrubkov_podachi_obr" %}</b></td>
+                                    <td>дм<sup>3</sup></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+{#                </div>#}
+                </div>
+                <div id="description" class="row bottom-border">
+                    <div class="container margin-top-40 padding-bottom-20">
+                        {% placeholder "descripton" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

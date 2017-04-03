@@ -4,5 +4,11 @@
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
 {% block content %}
-
+{#    {% spaceless %}#}
+    <div id="mainBody">
+        <div class="container background-white bottom-border no-padding">
+            {% placeholder "content" %}
+        </div>
+    </div>
+{#    {% endspaceless %}#}
 {% endblock content %}

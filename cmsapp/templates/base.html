@@ -11,7 +11,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <!-- Favicon -->
-    <link href="favicon.ico" rel="shortcut icon">
+    {#    <link href="favicon.ico" rel="shortcut icon">#}
+    <link rel="shortcut icon" type="image/png"
+          href="{% static "favicon.ico" %}"/>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
     <!-- Template CSS -->
@@ -23,6 +25,8 @@
     <link rel="stylesheet" href="{% static "css/responsive.css" %}">
     <link rel="stylesheet" href="{% static "css/custom.css" %}">
     <link rel="stylesheet" href="{% static "css/lightbox.css" %}">
+    <link rel="stylesheet" href="{% static "slick/slick.css" %}"/>
+    <link rel="stylesheet" href="{% static "slick/slick-theme.css" %}"/>
     <!-- Google Fonts-->
     <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300"
           rel="stylesheet" type="text/css">
@@ -30,41 +34,42 @@
 </head>
 <body>
 <div class="topbar">
-    {% cms_toolbar %}
+        {% cms_toolbar %}
 </div>
 <div id="body-bg">
+{#    {% spaceless %}#}
     <!-- Phone/Email -->
     <div id="pre-header" class="topbar background-gray-lighter">
         <div class="container no-padding">
             <div class="row hidden-xs">
                 <div class="col-sm-10 padding-vert-5">
-{#                    <p class="dline margin-bottom-0"><strong>Тел:</strong> 096-88-95-888#}
-{#                    <br>#}
-{#                    <strong>e-mail:</strong> fortnoks-veseloe@mail.ru#}
-{#                    </p>#}
+                    {#                    <p class="dline margin-bottom-0"><strong>Тел:</strong> 096-88-95-888#}
+                    {#                    <br>#}
+                    {#                    <strong>e-mail:</strong> fortnoks-veseloe@mail.ru#}
+                    {#                    </p>#}
                     <table class="cont">
                         <tbody>
-                            <tr>
-                                <td width="50">
-                                    <strong>Тел:</strong>
-                                </td>
-                                <td>
-                                    096-88-95-888
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="50">
-                                    <strong>e-mail:  </strong>
-                                </td>
-                                <td>
-                                    fortnoks-veseloe@mail.ru
-                                </td>
-                            </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-phone"> </span>
+                            </td>
+                            <td>
+                                096-83-111-83
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-envelope"> </span>
+                            </td>
+                            <td>
+                                <a href="mailto:fortnoks-veseloe@mail.ru">fortnoks-veseloe@mail.ru</a>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-sm-2 text-right padding-top-15">
-{#                   <a href="{% page_language_url "ru-ru" %}">Рус</a> <a href="{% page_language_url "uk-ua" %}">Укр</a> <a href="{% page_language_url "en-us" %}">Eng</a>#}
+                    {#                   <a href="{% page_language_url "ru-ru" %}">Рус</a> <a href="{% page_language_url "uk-ua" %}">Укр</a> <a href="{% page_language_url "en-us" %}">Eng</a>#}
                     {% language_chooser "language_chooser.html" %}
                 </div>
             </div>
@@ -87,14 +92,28 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding margin-top-10 ">
-                    <form class="form-search pull-right margin-horiz-10">
-                        <div class="input-append">
-                            <input type="text" class="span2 search-query">
-                            <button type="submit" class="btn btn-primary">
-                                Поиск
-                            </button>
-                        </div>
-                    </form>
+{#                    <div class="plugin-search">#}
+{#                        <form action="." method="get" class="frm frm-search">#}
+{#                            <input class="input-text input-large" id="id_q" name="q" placeholder="enter your search term" type="search"/>#}
+{#                            <label class="empty">&nbsp;</label>#}
+{#                            <div class="field">#}
+{#                                <input type="submit" class="btn"/>#}
+{#                            </div>#}
+{#                        </form>#}
+{#                    </div>#}
+                    {% static_placeholder 'searchform' %}
+{#                    <form action="." method="get" class="frm frm-search">#}
+{#                        <input id="id_q" name="q" type="search" />#}
+{#                        <input name="" type="submit" value="Поиск">#}
+{#                    </form>#}
+{#                    <form class="pull-right margin-horiz-10">#}
+{#                        <div class="input-append">#}
+{#                            <input type="text" class="span2 search-query">#}
+{#                            <button type="submit" class="btn btn-primary">#}
+{#                                Поиск#}
+{#                            </button>#}
+{#                        </div>#}
+{#                    </form>#}
                 </div>
             </div>
         </div>
@@ -109,43 +128,115 @@
                 <!-- Contact Details -->
                 <div class="col-md-8">
                     <h3 class="margin-bottom-10">Контактная информация</h3>
-                    <p>
-                        <span class="fa-phone">Тел.:</span>096-88-95-888
-                        <br>
-                        <span class="fa-envelope">Email:</span>
-                        <a href="mailto:fortnoks-veseloe@mail.ru">fortnoks-veseloe@mail.ru</a>
-                        <br>
-                        <span class="fa-link">Website:</span>
-                        <a href="http://www.SteelArt.ua">www.SteelArt.ua</a>
-                    </p>
-                    <p>Украина, Запорожская обл,
-                        <br>пгт.Веселое,
-                        <br>ул.Чекистов, д. </p>
+                    <table class="cont-bottom">
+                        <tbody>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-phone"></span>
+                            </td>
+                            <td width="60">
+                                <strong>Тел.:</strong>
+                            </td>
+                            <td>
+                                096-83-111-83
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-envelope"></span>
+                            </td>
+                            <td width="60">
+                                <strong>Email:</strong>
+                            </td>
+                            <td>
+                                <a href="mailto:fortnoks-veseloe@mail.ru">fortnoks-veseloe@mail.ru</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-link"></span>
+                            </td>
+                            <td width="60">
+                                <strong>Website:</strong>
+                            </td>
+                            <td>
+                                <a href="http://www.SteelArt.ua">www.SteelArt.ua</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-map-marker"></span>
+                            </td>
+                            <td width="60">
+                                <strong>Адрес:</strong>
+                            </td>
+                            <td>
+                                Украина, Запорожская обл,
+                                <br>пгт.Веселое, ул.Чекистов, д.95
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <!-- End Contact Details -->
                 <!-- Sample Menu -->
                 <!-- HARDCODING!!! -->
                 <div class="col-md-4">
                     <h3 class="margin-bottom-10">КАРТА САЙТА</h3>
-                    <ul class="menu">
-                        <li>
-                            <a class="fa-tasks" href="#">Входные двери</a>
-                        </li>
-                        <li>
-                            <a class="fa-tasks" href="#">Твердотопливные
-                                котлы</a>
-                        </li>
-                        <li>
-                            <a class="fa-users" href="#">О нас</a>
-                        </li>
-                    </ul>
-                    <div class="clearfix"></div>
+                    <table class="cont-bottom">
+                        <tbody>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-caret-right"></span>
+                            </td>
+                            <td>
+                                <a href="#">Входные двери</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-caret-right"></span>
+                            </td>
+                            <td>
+                                <a href="#">Твердотопливные котлы</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-caret-right"></span>
+                            </td>
+                            <td>
+                                <a href="#">Каталог</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20">
+                                <span class="fa-users"></span>
+                            </td>
+                            <td>
+                                <a href="#">О нас</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                        {#                    <ul class="menu">#}
+                        {#                        <li>#}
+                        {#                            <a class="fa-caret-right" href="#">Входные двери</a>#}
+                        {#                        </li>#}
+                        {#                        <li>#}
+                        {#                            <a class="fa-caret-right" href="#">Твердотопливные#}
+                        {#                                котлы</a>#}
+                        {#                        </li>#}
+                        {#                        <li>#}
+                        {#                            <a class="fa-users" href="#">О нас</a>#}
+                        {#                        </li>#}
+                        {#                    </ul>#}
+                        <div class="clearfix"></div>
                 </div>
                 <!-- End Sample Menu -->
             </div>
         </div>
     </div>
-
+{#    {% endspaceless %}#}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
     <!-- JS -->
@@ -175,9 +266,21 @@
 
     <script type="text/javascript"
             src="{% static "js/lightbox.js" %}"></script>
-
+    <script type="text/javascript"
+            src="{% static "slick/slick.js" %}"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider_boiler').slick({
+            cssEase: 'ease-in',
+            dots: true,
+            arrows: true,
+            fade: true
+        });
+    });
+    </script>
     <!-- End JS -->
     {% render_block "js" %}
 </div>
+
 </body>
 </html>

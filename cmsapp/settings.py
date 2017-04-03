@@ -29,7 +29,7 @@ SECRET_KEY = 'y@_%17s)9$!=+#qdin)qlmuhf58bi4-*k6u4ojbb^hvkkk0j*c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1',]
 
 
 # Application definition
@@ -99,9 +99,9 @@ TEMPLATES = [
     },
 ]
 
-
 MIDDLEWARE_CLASSES = (
     'cms.middleware.utils.ApphookReloadMiddleware',
+    # 'cms_redirects.middleware.RedirectFallbackMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 'solid_i18n.middleware.SolidLocaleMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -113,8 +113,12 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware'
+    'cms.middleware.language.LanguageCookieMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'djangocms_redirect.middleware.RedirectMiddleware',
 )
+
+DJANGOCMS_REDIRECT_USE_REQUEST = False
 
 INSTALLED_APPS = (
     'djangocms_admin_style',
@@ -148,10 +152,18 @@ INSTALLED_APPS = (
     'aldryn_gallery',
     'aldryn_boilerplates',
     'djangocms_picture',
-    # 'cmsplugin_cascade',
     'cmsapp',
+    'debug_toolbar',
     # 'parler',
     # 'solid_i18n',
+    'haystack',
+    'aldryn_search',
+    'standard_form',
+    'spurl',
+    'whoosh',
+    'djangocms_search',
+    'djangocms_redirect',
+    # 'cms_redirects',
 )
 
 CMS_LANGUAGE_CONF = {
@@ -159,14 +171,6 @@ CMS_LANGUAGE_CONF = {
     'uk-UA': ['uk-UA'],
     'en-US': ['en-US'],
 }
-
-# CMS_LANGUAGES = (
-#     ## Customize this
-#     ('ru-ru', gettext('ru')),
-#     ('uk-ua', gettext('ua')),
-#     ('en-us', gettext('en')),
-# )
-
 
 LANGUAGES = (
     ## Customize this
@@ -213,7 +217,9 @@ CMS_TEMPLATES = (
     ## Customize this
     ('page.html', 'Page'),
     ('feature.html', 'Page with Feature'),
-    ('detail.html', 'Detail desription'),
+    ('detail.html', 'Detail door'),
+    ('detail_boiler.html', 'Detail boiler'),
+    ('detail_boiler_v2.html', 'Detail boiler with dop inf'),
     ('gallery.html', 'Gallery'),
 )
 
@@ -245,6 +251,38 @@ THUMBNAIL_PROCESSORS = (
 )
 
 DJANGOCMS_PICTURE_TEMPLATES = [
-    ('withlightbox', ('image with lightbox')),
+    ('withlightbox_group1', ('image with lightbox in group1')),
+    ('withlightbox_group2', ('image with lightbox in group2')),
 ]
 
+INTERNAL_IPS = {
+    '127.0.0.1',
+}
+
+# HAYSTACK_CONNECTIONS = {
+#     'default': {
+#         'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',},
+#     # 'ua': {
+#     #     'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+#     # },
+#     # 'en': {
+#     #     'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+#     # },
+# }
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+    },
+}
+
+# PLACEHOLDERS_SEARCH_LIST = {
+#     '*': {
+#         'include': ['content', ],
+#     }
+# }
+
+HAYSTACK_ROUTERS = ['aldryn_search.router.LanguageRouter', ]
+
+ALDRYN_SEARCH_REGISTER_APPHOOK = True

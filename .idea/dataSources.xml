@@ -17,13 +17,5 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Django default2" uuid="a40e0259-eb92-4273-86d5-eec47182f552">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/cmstst/settings.py</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/project.db</jdbc-url>
-    </data-source>
   </component>
 </project>
